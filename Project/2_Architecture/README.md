@@ -1,9 +1,8 @@
 ## Block Diagram
 
-![blockdiagram](https://user-images.githubusercontent.com/46968935/155591312-724e18a7-3767-4669-a5f5-dec2ae15db7e.PNG)
-
+![blockdiagram](https://user-images.githubusercontent.com/46968935/156890324-c475f127-c60c-445f-93bd-945fe5cec2db.PNG)
 
 ## Flowchart
 
-![flow](https://user-images.githubusercontent.com/46968935/155594446-0283600a-589c-4b9b-9e07-ae59398489a1.PNG)
+![flowchart](https://user-images.githubusercontent.com/46968935/156890350-082c219c-c1da-4e1e-8064-7c780c05d3e8.PNG)
 

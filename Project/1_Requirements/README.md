@@ -1,19 +1,19 @@
-# Description
-## Introduction
-This Project is an example of embedded system which uses a microcontroller, a ultra sonic sensor and LCD Screen.The ultra sonic sensor sends ultra sonic waves that are bounced back after hitting the object placed infront of the sensor. The time taken by the signals to bounce back determines how far the object is from the sensor.
 
+# Smart Stick For the Blind
+## Introduction
+### The Traditional stick which the blind people use does not fulfill the requirements of the modern world. The Smart stick is a device for the visually impaired to guide the user to respective destination and avoiding to collide with the obstacles which is done with the help of a microcontroller (Arduino Uno), a sensor (UltraSonic Sensor: HC-SR04) and a buzzer.
 ------------------------------
 
 ## High Level Requirements
-* Must perform operations such as:
-- To detect the distance between ultrasonic sensor and the object placed infront of it and display the same on Lcd
-- To turn On the Buzzer when the distance between the ultrasonic sensor and the object is too less
+The Smart Stick must be able to perform the following operations:
+- To detect the distance of any object which comes infront of the ultrasonic sensor
+- To provide warning in form of sound with help of Buzzer when the distance between the stick (ultrasonic sensor) and the object is too less
 
 ## Low Level Requirements
-* Low level requirements must have
-    -  Interface HC-SR04 (UltraSonic sensor) with Atmega8
-    -  Interface LCD With Atmega8
-    -  Interface Buzzer with Atmega8
+Low level requirements must have
+-  Interface HC-SR04 (UltraSonic sensor) with Arduino Uno
+-  Interface LCD With Arduino uno
+-  Interface Buzzer with Arduino Uno
 ----------------------------------------
 ## Component Description
 
@@ -26,26 +26,25 @@ This Project is an example of embedded system which uses a microcontroller, a ul
 ### Ultra Sonic Sensor
 - Sends and recieves ultra sonic signals which are used to determine distance between the sensor and the object
 
-### LCD Display
-- 16*2 LCD Display is used to show warning also to print the distance in CM
+### Buzzer
+- Acts as a device to communicate with the user when any object is too close to it
 
 --------------------------------------
 
 ## SWOT
 
 ### Strengths
-- To display the distance between the object and Ultrasonic sensor on LCD screen
-- Easy to understand application and use
+- Easy to understand the application and use it
 - Easy method to check whether the distace between the object is very less by turning on the buzzer
 - Ultrasonic sensors are highly accurate and can detect small variations
+
 
  ### Weakness 
 - Ultrasonic sensors have difficulties in reading reflections from soft, curved and thin as well as a small object
 - Measuring the distance is limited
 
 ### Opportunities
-- Used in day to day life by everyone
-- Can be used in many applications such as Door lock sensor, Seat belt sensor and many more
+- Used by the visually impared 
 
 ### Threats
 - Other sensors can be used which have greater efficiency than Ultrasonic Sensor
@@ -54,16 +53,16 @@ This Project is an example of embedded system which uses a microcontroller, a ul
 
 ## 4W's & 1H
 ### Who
-- A user who wants to find distance between himself and object placed infront of him.
+- A visually impaired person.
 
 ### What
-- This is a utility application to determine distance and warn the user if the distance is very less by turning on the buzzer/Leds.
+- This is a utility application to determine distance and warn the visually impared person if the distance is very less by turning on the buzzer/Leds.
 
 ### When 
--  Can be used in Seat belt notifier, Door lock notifier, window notofoer, water level detector and many more
+-  While walking 
 
 ### Where
-- User can belong to any background who can use this utility to determine distance or to check if any object is present infront of him.
+- The user is a visually impaired person who can use this utility to prevent any collisions by warning him
 
 ### How
-- Developed using C Language and implemented on SimulIDE.
+- Developed using Arduino UNO and implemented on SimulIDE.
